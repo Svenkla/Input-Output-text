@@ -1,0 +1,13 @@
+[debug] [2023-07-07T06:53:30.536Z] ----------------------------------------------------------------------
+[debug] [2023-07-07T06:53:30.540Z] Command:       D:\NODE\node.exe C:\Users\izari\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-07-07T06:53:30.542Z] CLI Version:   12.4.3
+[debug] [2023-07-07T06:53:30.543Z] Platform:      win32
+[debug] [2023-07-07T06:53:30.543Z] Node Version:  v20.1.0
+[debug] [2023-07-07T06:53:30.543Z] Time:          Fri Jul 07 2023 08:53:30 GMT+0200 (Srednjeevropski poletni čas)
+[debug] [2023-07-07T06:53:30.544Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-07T06:53:30.565Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-07-07T06:53:31.481Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json

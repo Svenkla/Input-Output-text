@@ -1,0 +1,199 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.navbar {
+  background-color: blue;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.profile {
+  font-size: 18px;
+  gap: 10px;
+}
+
+.navbar .link {
+  text-decoration: none;
+  color: aqua;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+img {
+  margin-left: 10px;
+}
+
+.navbar .login-name {
+  color: white;
+}
+
+.user img {
+  margin-left: 1rem;
+}
+
+.izpisPodatkov {
+  width: 50%;
+  background-color: antiquewhite;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.podatkiPosebej {
+  padding: 20px;
+  font-size: 18px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.podatkiPosebej span {
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.buttonOdjava {
+  background-color: rgb(73, 167, 255);
+  color: rgb(0, 255, 255);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.buttonOdjava:hover {
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+}
+
+.login {
+  text-align: center;
+}
+
+.sort {
+  margin: 20px 0 0 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .navbar {
+    background-color: blue;
+    text-align: center;
+    font-size: 22px;
+    padding: 8px 0;
+  }
+
+  .profile {
+    font-size: 16px;
+  }
+
+  .navbar .link {
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+    margin: 1rem;
+  }
+
+  img {
+    margin-left: 10px;
+  }
+
+  .navbar .login-name {
+    color: white;
+  }
+
+  .izpisPodatkov {
+    width: 80%;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .podatkiPosebej {
+    padding: 20px;
+    font-size: 18px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .podatkiPosebej span {
+    font-weight: bold;
+  }
+
+  input,
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    font-size: 16px;
+  }
+
+  input[type="submit"] {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    width: 20%;
+  }
+
+  .buttonOdjava {
+    background-color: rgb(73, 167, 255);
+    color: rgb(0, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .buttonOdjava:hover {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+  }
+
+  .login {
+    text-align: center;
+  }
+}
